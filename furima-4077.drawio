@@ -1,0 +1,114 @@
+<mxfile host="65bd71144e">
+    <diagram id="KpjCQMR5fbN93ioDMuYl" name="ページ1">
+        <mxGraphModel dx="320" dy="515" grid="1" gridSize="10" guides="1" tooltips="1" connect="0" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="5" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;usersテーブル&lt;br&gt;&lt;br&gt;&lt;/font&gt;&lt;p style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; line-height: normal; text-align: start; font-size: 15px;&quot; class=&quot;p1&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;email (string型, NOT NULL, ユニーク制約 )&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; line-height: normal; text-align: start; font-size: 15px;&quot; class=&quot;p1&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;encrypted_password (string型, NOT NULL )&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; line-height: normal; text-align: start; font-size: 15px;&quot; class=&quot;p1&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;nickname (string型, NOT NULL )&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; line-height: normal; text-align: start; font-size: 15px;&quot; class=&quot;p1&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;name (string型, NOT NULL )&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; line-height: normal; text-align: start; font-size: 15px;&quot; class=&quot;p1&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;birth_date (DATE型, NOT NULL )&lt;/font&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry y="50" width="320" height="220" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="&lt;p style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; line-height: normal; font-size: 15px;&quot; class=&quot;p1&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;productテーブル&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; line-height: normal; text-align: start; font-size: 15px;&quot; class=&quot;p1&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;product_name (string型, NOT NULL )&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; line-height: normal; text-align: start; font-size: 15px;&quot; class=&quot;p1&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;description (text型, NOT NULL )&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; line-height: normal; text-align: start; font-size: 15px;&quot; class=&quot;p1&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;category (string型, NOT NULL )&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; line-height: normal; text-align: start; font-size: 15px;&quot; class=&quot;p1&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;condition (text型, NOT NULL )&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; line-height: normal; text-align: start; font-size: 15px;&quot; class=&quot;p1&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;cost (text型, NOT NULL )&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; line-height: normal; text-align: start; font-size: 15px;&quot; class=&quot;p1&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;local (string型, NOT NULL )&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; line-height: normal; text-align: start; font-size: 15px;&quot; class=&quot;p1&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;days (string型, NOT NULL )&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; line-height: normal; text-align: start; font-size: 15px;&quot; class=&quot;p1&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;price (integer型, NOT NULL )&lt;/font&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="507" y="50" width="320" height="220" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="&lt;p style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; line-height: normal; font-size: 15px;&quot; class=&quot;p1&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;shippingテーブル&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; line-height: normal; text-align: start; font-size: 15px;&quot; class=&quot;p1&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;post_code (string型, NOT NULL )&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; line-height: normal; text-align: start; font-size: 15px;&quot; class=&quot;p1&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;prefectures (string型, NOT NULL )&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; line-height: normal; text-align: start; font-size: 15px;&quot; class=&quot;p1&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;municipalities (string型, NOT NULL )&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; line-height: normal; text-align: start; font-size: 15px;&quot; class=&quot;p1&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;address&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;(string型, NOT NULL )&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; line-height: normal; text-align: start; font-size: 15px;&quot; class=&quot;p1&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;building_name (string型 )&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; line-height: normal; text-align: start; font-size: 15px;&quot; class=&quot;p1&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;phone_number (string型, NOT NULL )&lt;/font&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry y="400" width="320" height="220" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="&lt;p style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; line-height: normal; font-size: 15px;&quot; class=&quot;p1&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;purchaseテーブル&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; line-height: normal; -webkit-text-stroke-color: rgb(193, 193, 193); text-align: start; font-size: 15px;&quot; class=&quot;p2&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;user (references型, NOT NULL, 外部キー )&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; line-height: normal; -webkit-text-stroke-color: rgb(193, 193, 193); text-align: start; font-size: 15px;&quot; class=&quot;p2&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;product (references型, NOT NULL, 外部キー )&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; line-height: normal; -webkit-text-stroke-color: rgb(193, 193, 193); text-align: start; font-size: 15px;&quot; class=&quot;p2&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;shipping (references型, NOT NULL, 外部キー )&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; line-height: normal; -webkit-text-stroke-color: rgb(193, 193, 193); text-align: start; font-size: 15px;&quot; class=&quot;p2&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;token (string型, NOT NULL )&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; line-height: normal; -webkit-text-stroke-color: rgb(193, 193, 193); text-align: start; font-size: 15px;&quot; class=&quot;p2&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;total_price (integer型, NOT NULL )&lt;/font&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="507" y="400" width="320" height="220" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="" style="endArrow=none;html=1;fontSize=15;fontColor=#FFFFFF;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="6" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="320" y="159.5" as="sourcePoint"/>
+                        <mxPoint x="470" y="159.5" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="400" y="159.5"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="10" value="" style="endArrow=none;html=1;fontSize=15;fontColor=#FFFFFF;exitX=-0.003;exitY=0.609;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="6" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="476" y="160" as="sourcePoint"/>
+                        <mxPoint x="507" y="130" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="470" y="160"/>
+                            <mxPoint x="506" y="130"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="12" value="" style="endArrow=none;html=1;fontSize=15;fontColor=#FFFFFF;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="330" y="175" as="sourcePoint"/>
+                        <mxPoint x="330" y="145" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="13" value="" style="endArrow=none;html=1;fontSize=15;fontColor=#FFFFFF;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" target="6" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="666.5" y="400" as="sourcePoint"/>
+                        <mxPoint x="666.5" y="320" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="15" value="" style="endArrow=none;html=1;fontSize=15;fontColor=#FFFFFF;exitX=0.875;exitY=1.018;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="5" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="420" y="420" as="sourcePoint"/>
+                        <mxPoint x="410" y="430" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="370" y="430"/>
+                            <mxPoint x="510" y="430"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="16" value="" style="endArrow=none;html=1;fontSize=15;fontColor=#FFFFFF;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="637" y="399" as="sourcePoint"/>
+                        <mxPoint x="697" y="399" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="667" y="360"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="18" value="" style="endArrow=none;html=1;fontSize=15;fontColor=#FFFFFF;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="647" y="290" as="sourcePoint"/>
+                        <mxPoint x="687" y="290" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="19" value="" style="endArrow=none;html=1;fontSize=15;fontColor=#FFFFFF;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="340" y="605" as="sourcePoint"/>
+                        <mxPoint x="340" y="565" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="22" value="" style="endArrow=none;html=1;fontSize=15;fontColor=#FFFFFF;entryX=-0.003;entryY=0.836;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="8" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="320" y="585" as="sourcePoint"/>
+                        <mxPoint x="360" y="585" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="24" value="" style="endArrow=none;html=1;fontSize=15;fontColor=#FFFFFF;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="490" y="605" as="sourcePoint"/>
+                        <mxPoint x="490" y="565" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="490" y="585"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="25" value="" style="endArrow=none;html=1;fontSize=15;fontColor=#FFFFFF;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="506" y="450" as="sourcePoint"/>
+                        <mxPoint x="506" y="410" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="460" y="430"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="27" value="" style="endArrow=none;html=1;fontSize=15;fontColor=#FFFFFF;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="290" y="320" as="sourcePoint"/>
+                        <mxPoint x="310" y="300" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
